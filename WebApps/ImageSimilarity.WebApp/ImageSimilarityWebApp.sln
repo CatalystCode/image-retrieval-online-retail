@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSimilarity.Web", "ImageSimilarity.Web\ImageSimilarity.Web.csproj", "{2D9BD5DF-DC9A-4A10-B96D-CDC923D1A54A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSimilarity.Functions", "ImageSimilarity.Functions\ImageSimilarity.Functions.csproj", "{7738CF3A-0F5B-44C2-AAFB-82AF6B64AD2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D9BD5DF-DC9A-4A10-B96D-CDC923D1A54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9BD5DF-DC9A-4A10-B96D-CDC923D1A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9BD5DF-DC9A-4A10-B96D-CDC923D1A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9BD5DF-DC9A-4A10-B96D-CDC923D1A54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7738CF3A-0F5B-44C2-AAFB-82AF6B64AD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7738CF3A-0F5B-44C2-AAFB-82AF6B64AD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7738CF3A-0F5B-44C2-AAFB-82AF6B64AD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7738CF3A-0F5B-44C2-AAFB-82AF6B64AD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBEA8734-05EC-49DD-8AF2-506F91609B5C}
+	EndGlobalSection
+EndGlobal

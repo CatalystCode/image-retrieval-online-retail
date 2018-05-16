@@ -1,0 +1,28 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "azure-webjobs-storage-account-connection-string",
+    "AzureWebJobsDashboard": "azure-webjobs-dashboard-storage-account-connection-string",
+
+    "UploadedImagesQueueName": "uploadedimagequeue",
+    "UploadedImagesQueueStorageConnectionString": "upload-storage-account-connection-string",
+
+    "TrackingDbConnectionString": "redis-connection-string",
+
+    "ResizedImageQueueName": "resizedimagequeue",
+    "ResizedImageQueueStorageConnectionString": "resized-image-storage-account-connection-string",
+
+    "UploadedImageStorageConnectionString": "resized-image-storage-account-connection-string",
+    "UploadedImageContainer": "image-uploads",
+
+    "ResizedImageStorageConnectionString": "resized-image-storage-account-connection-string",
+    "ResizedImageContainer": "image-resized",
+
+    "PreferredWidth": "1571",
+    "PreferredHeight": "2000",
+
+    "MLQueryServiceEndpoint": "ml-endpoint",
+    "MLQueryServiceAuthHeader": "authentication-token"
+  }
+
+}
