@@ -28,7 +28,7 @@ The deployment of the cluster will take a while, and the installation of the dri
 
     kubectl get nodes
 
-![](assets/screenshot1.jpg)
+![](assets/screenshot1.JPG)
 
 So if we check one of the nodes, we can see it has GPUs
 
@@ -50,7 +50,7 @@ Copy the name of your pod from the ouput, so that you can check the logs and see
 Now we can create the docker image with the model and the job to deploy it in the cluster using the GPUs. 
 Basically, in order to use the GPUs, you need to expose the drivers from the host to the container and to specify how many of them we need (in the job template). The file should look like this one
 
-![](assets/screenshot4.jpg)
+![](assets/screenshot4.JPG)
 
 To have more details on how to do that, you can follow [these guidelines](https://github.com/Azure/acs-engine/blob/master/docs/kubernetes/gpu.md). 
 
